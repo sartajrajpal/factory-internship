@@ -63,9 +63,9 @@ def jira(issue_title, issue_description, jira_domain, jira_username, jira_api_to
 def main():
     # i know this is not good practice in terms of swe but im just putting it here for simplicity's sake
     OPENAI_API_KEY = "api-key" #replace with your OpenAI API token
-    jira_domain = "sartaj"        
-    jira_username = "Sartaj Rajpal"    
-    jira_api_token = "api-key"  # Replace with your Jira API token
+    jira_domain = "domain"     # enter here 
+    jira_username = "username" # enter here 
+    jira_api_token = "api-key" # Replace with your Jira API token
 
     if not OPENAI_API_KEY:
         print("OpenAI API key not found.")
